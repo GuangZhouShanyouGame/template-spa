@@ -31,6 +31,15 @@ npm run e2e
 # run all tests
 npm test
 {{/if_or}}
+
+# 引入 24好玩 内部库
+#   - 前提: 项目必须是 Git 库
+
+# 基础库
+npm run lib-base
+# IO 层级的库
+npm run lib-store
 ```
+
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
