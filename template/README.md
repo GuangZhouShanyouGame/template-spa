@@ -8,6 +8,13 @@
 # install dependencies
 npm install
 
+# 引入 24好玩 内部库
+#   - 前提: 项目必须是 Git 库
+# 基础库
+npm run lib-base
+# IO 层级的库
+npm run lib-store
+
 # serve with hot reload at localhost:8080
 npm run dev
 
@@ -31,14 +38,6 @@ npm run e2e
 # run all tests
 npm test
 {{/if_or}}
-
-# 引入 24好玩 内部库
-#   - 前提: 项目必须是 Git 库
-
-# 基础库
-npm run lib-base
-# IO 层级的库
-npm run lib-store
 ```
 
 
