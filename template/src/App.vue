@@ -1,5 +1,5 @@
 <style lang="scss">
-@import "~styles/main";
+@import "~@/assets/styles/main";
 
 #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -15,7 +15,7 @@
 
 <template>
     <div id="app">
-        <img src="~/assets/imgs/logo.png">
+        <img src="~@/assets/imgs/logo.png">
         <router-view></router-view>
     </div>
 </template>
